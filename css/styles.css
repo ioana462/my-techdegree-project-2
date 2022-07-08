@@ -74,7 +74,7 @@ a:hover {
   margin: auto;
 }
 
-.main-containere {
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,7 +94,7 @@ a:hover {
   align-items: center;
 }
 
-.main-containere h2,
+.main-container h2,
 .bottom-container h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -134,7 +134,7 @@ a:hover {
   font-weight: 300;
 }
 
-.bottom-container aside {
+.bottom-container section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,16 +142,16 @@ a:hover {
   padding: 20px 20px 40px 20px;
 }
 
-.bottom-container aside h2 {
+.bottom-container section h2 {
   padding-bottom: 0px;
 }
 
-.bottom-container aside p {
+.bottom-container section p {
   color: #797979;
   line-height: 1.4;
 }
 
-.bottom-container aside span {
+.bottom-container section span {
   padding: 10px;
 }
 
@@ -221,7 +221,7 @@ a:hover {
     font-size: 26px;
   }
 
-  .main-containere {
+  .main-container {
     padding: 0 40px;
   }
 
@@ -256,8 +256,8 @@ a:hover {
     padding: 0 25px;
   }
 
-  .bottom-container aside p {
-    padding: 10px 140px;
+  .bottom-container section p {
+    padding: 10px 130px;
     font-size: 18px;
   }
 
@@ -306,30 +306,31 @@ a:hover {
     font-size: 36px;
   }
 
-  .main-containere h2,
+  .main-container h2,
   .bottom-container h2 {
     font-size: 20px;
   }
 
   .introduction {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .introduction img {
-    width: 100%;
+    width: 45%;
     margin: 0;
     max-width: 500px;
   }
 
   .introduction p {
-    width: 50%;
+    width: 45%;
     margin-right: 20px;
     font-size: 24px;
   }
 
-  .main-containere {
+  .main-container {
     width: 100vw;
     height: auto;
     padding: 20px 60px;
@@ -359,12 +360,12 @@ a:hover {
     padding: 20px 60px 0;
   }
 
-  .bottom-container aside p,
-  .bottom-container aside span {
+  .bottom-container section p,
+  .bottom-container section span {
     font-size: 24px;
   }
 
-  .bottom-container aside p {
+  .bottom-container section p {
     max-width: 1024px;
   }
 
